@@ -25,7 +25,9 @@
             <div id="content-wrapper" class="d-flex flex-column">
                 <!-- Main Content -->
                 <div id="content">
+                    {{-- begin nav --}}
                     @include('admin.inc.navbar')
+                    {{-- end nav --}}
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
                         <!-- Page Heading -->
@@ -37,7 +39,10 @@
                     <!-- /.container-fluid -->
                 </div>
                 <!-- End of Main Content -->
+                {{-- begin footer --}}
                 @include('admin.inc.footer')
+                {{-- end footer --}}
+                {{--  --}}
             </div>
             <!-- End of Content Wrapper -->
         </div>
